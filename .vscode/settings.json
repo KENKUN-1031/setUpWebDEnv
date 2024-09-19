@@ -1,0 +1,23 @@
+{
+  "workbench.startupEditor": "none",
+  // ファイル保存時に自動フォーマット
+  "editor.codeActionsOnSave": {},
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": false,
+
+  /* Emmet */
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  /* File Format */
+  // ファイルの保存時に最終行以降の新しい行をトリミング
+  "files.trimFinalNewlines": true,
+  // ファイルの保存時に最新の行を末尾に追加
+  "files.insertFinalNewline": true,
+  // 末尾の空白をトリミング
+  // "files.trimTrailingWhitespace": true
+}
