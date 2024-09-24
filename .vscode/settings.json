@@ -2,10 +2,7 @@
   "workbench.startupEditor": "none",
   // ファイル保存時に自動フォーマット
   "editor.codeActionsOnSave": {},
-  "editor.tabSize": 2,
-  "editor.indentSize": "tabSize",
   "editor.formatOnSave": true,
-  "editor.detectIndentation": false,
   "editor.minimap.enabled": false,
   "editor.fontLigatures": false,
 
@@ -13,11 +10,29 @@
   "emmet.variables": {
     "lang": "ja"
   },
-  /* File Format */
-  // ファイルの保存時に最終行以降の新しい行をトリミング
-  "files.trimFinalNewlines": true,
-  // ファイルの保存時に最新の行を末尾に追加
-  "files.insertFinalNewline": true,
-  // 末尾の空白をトリミング
-  // "files.trimTrailingWhitespace": true
+
+  //デフォルトをprettierのフォーマットに変更
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // HTML, CSS, JS それぞれのフォーマッタをPrettierに設定
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Prettier固有の設定
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSpacing": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.semi": true,
+  "prettier.arrowParens": "always",
+  "prettier.printWidth": 80
 }
