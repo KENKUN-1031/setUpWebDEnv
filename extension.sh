@@ -45,6 +45,13 @@ allinstall() {
     echo "Prettier 拡張機能をインストールします..."
     code --install-extension esbenp.prettier-vscode
   fi
+
+  if code --list-extensions | grep -q "ritwickdey.liveserver"; then
+    echo "Live Server 拡張機能はすでにインストールされています。"
+  else
+    echo "Live Server 拡張機能をインストールします..."
+    code --install-extension ritwickdey.liveserver
+  fi
 }
 
 # 関数を実行
