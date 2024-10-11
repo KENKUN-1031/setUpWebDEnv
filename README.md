@@ -19,7 +19,7 @@
 
 ### 実行方法
 
-#### windows の場合
+#### 💻windows の場合💻
 
 powershell の管理者権限でファイル直下まで移動してください！
 
@@ -37,7 +37,7 @@ powershell の管理者権限でファイル直下まで移動してください
 
 Notes: 処理が止まった場合は Enter を押したら進みます！！
 
-#### mac の場合
+#### 🍎mac の場合🍎
 
 `sh extension.sh`
 
