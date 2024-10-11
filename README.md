@@ -39,7 +39,7 @@ Notes: 処理が止まった場合は Enter を押したら進みます！！
 
 #### 🍎mac の場合🍎
 
-`sh extension.sh`
+`sh mac.sh`
 
 ## settings.json
 
