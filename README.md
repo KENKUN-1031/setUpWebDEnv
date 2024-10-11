@@ -24,7 +24,9 @@
 powershell の管理者権限でファイル直下まで移動してください！
 以下のコマンドを実行してください！↓
 `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
+
 ↓
+
 `.¥windows.ps1`
 
 Notes: 処理が止まった場合は Enter を押したら進みます！！
