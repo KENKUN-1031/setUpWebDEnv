@@ -22,6 +22,7 @@
 #### windows の場合
 
 powershell の管理者権限でファイル直下まで移動してください！
+
 以下のコマンドを実行してください！↓
 
 `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
