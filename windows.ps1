@@ -10,7 +10,10 @@ function ErrorHandler {
 }
 
 # トラップの設定（エラー発生時に ErrorHandler を呼び出す）
-trap { ErrorHandler }
+trap {
+    ErrorHandler
+    continue
+}
 
 function AllInstall {
   # Chocolatey のインストール確認
