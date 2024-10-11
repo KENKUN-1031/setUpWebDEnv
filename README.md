@@ -27,6 +27,10 @@ powershell の管理者権限でファイル直下まで移動してください
 
 ↓
 
+`Remove-Item -Recurse -Force C:\ProgramData\chocolatey`
+
+↓
+
 `.¥windows.ps1`
 
 Notes: 処理が止まった場合は Enter を押したら進みます！！
