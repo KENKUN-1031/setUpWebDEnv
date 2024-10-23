@@ -23,6 +23,9 @@
 
 powershell の管理者権限でファイル直下まで移動してください！
 
+例：
+`cd Desktop/testSettingJson`
+
 以下のコマンドを実行してください！↓
 
 `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
