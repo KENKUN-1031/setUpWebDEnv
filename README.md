@@ -35,17 +35,25 @@ powershell の管理者権限でファイル直下まで移動してください
 
 `A` を入力して`Enter`を押してください！！
 
+↓
+
 `.¥windows.ps1`
 
-![alt text](./.image/success.png)
-
 こんなメッセージが表示されたら成功です！
+
+![alt text](./.image/success.png)
 
 Notes: 処理が止まった場合は Enter を押したら進みます！！
 
 #### 🍎mac の場合 🍎
 
 `sh mac.sh`
+
+↓
+
+こんなメッセージが表示されたら成功です！
+
+![alt text](./.image/macSuccess.png)
 
 ## settings.json
 
