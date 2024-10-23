@@ -2,9 +2,9 @@ $choco = ':\ProgramData\chocolatey'
 
 if (Test-Path $choco) {
   Remove-Item -Recurse -Force $choco
-  Write-Host "Chocolateyが削除されました。"
+  Write-Host "Chocolatey is deleted"
 } else {
-  Write-Host "Chocolateyは存在しません。削除する必要がありません。"
+  Write-Host "Chocolatey doesn't exist, no need to delete"
 }
 
 .¥windows.ps1
