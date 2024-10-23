@@ -7,4 +7,4 @@ if (Test-Path $choco) {
   Write-Host "Chocolatey doesn't exist, no need to delete"
 }
 
-.¥setupWin.ps1
+.\setupWin.ps1
