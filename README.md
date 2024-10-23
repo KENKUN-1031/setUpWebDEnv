@@ -19,7 +19,7 @@
 
 ### 実行方法
 
-#### 💻windows の場合💻
+#### 💻windows の場合 💻
 
 powershell の管理者権限でファイル直下まで移動してください！
 
@@ -27,17 +27,23 @@ powershell の管理者権限でファイル直下まで移動してください
 
 `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
+こんなメッセージが表示されると思います！！
+
+![alt text](./.image/image.png)
+
 ↓
 
-`Remove-Item -Recurse -Force C:\ProgramData\chocolatey`
-
-↓
+`A` を入力して`Enter`を押してください！！
 
 `.¥windows.ps1`
 
+![alt text](./.image/success.png)
+
+こんなメッセージが表示されたら成功です！
+
 Notes: 処理が止まった場合は Enter を押したら進みます！！
 
-#### 🍎mac の場合🍎
+#### 🍎mac の場合 🍎
 
 `sh mac.sh`
 
