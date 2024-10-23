@@ -1,4 +1,4 @@
-$choco = ':\ProgramData\chocolatey'
+$choco = 'C:\ProgramData\chocolatey'
 
 if (Test-Path $choco) {
   Remove-Item -Recurse -Force $choco
