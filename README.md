@@ -54,6 +54,18 @@ Notes: 処理が止まった場合は Enter を押したら進みます！！
 
 ↓
 
+コマンドを実行したら以下のようにパソコンのパスワードを聞かれるので入力してください！
+
+![alt text](./.image/macPassword.png)
+
+↓
+
+このようなメッセージが表示されたら Enter を教えてください！
+
+![alt text](./.image/macPressEnter.png)
+
+↓
+
 こんなメッセージが表示されたら成功です！
 
 ![alt text](./.image/macSuccess.png)
