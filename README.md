@@ -24,7 +24,7 @@
 powershell の**管理者権限**でファイル直下まで移動してください！
 
 例：
-`cd Desktop/testSettingJson`
+`cd Desktop/setUpWebDEnv`
 
 以下のコマンドを実行してください！↓
 
