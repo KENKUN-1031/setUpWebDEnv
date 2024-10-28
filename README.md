@@ -21,7 +21,7 @@
 
 #### 💻windows の場合 💻
 
-powershell の管理者権限でファイル直下まで移動してください！
+powershell の**管理者権限**でファイル直下まで移動してください！
 
 例：
 `cd Desktop/testSettingJson`
